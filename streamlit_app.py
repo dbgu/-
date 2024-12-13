@@ -124,17 +124,17 @@ if st.button("Predict"):
         input_df = pd.DataFrame([input_data], columns=columns)  # DataFrame으로 변환
         prediction = model["model"].predict(input_df)[0]
         if prediction >= 5.5:
-          prediction = "살인"
+          prediction = "살인 (6)"
         elif prediction >= 4.5:
-          prediction = "살인 미수"
+          prediction = "살인 미수 (5)"
         elif prediction >= 3.5:
-          prediction = "강간"
+          prediction = "강간 (4)"
         elif prediction >= 2.5:
-          prediction = "유사 강간"
+          prediction = "유사 강간 (3)"
         elif prediction >= 1.5:
-          prediction = "강도"
+          prediction = "강도 (2)"
         else:
-          prediction = "기타 범죄"
+          prediction = "기타 범죄 (1)"
 
         # 결과 출력
         y_name = model.get("y_names", ["Prediction"])[0]
@@ -144,13 +144,13 @@ if st.button("Predict"):
 
 # 예측 결과에 따라 콘텐츠 표시
 if prediction!=0:
-    if prediction == "살인":
+    if prediction == "살인 (6)":
         st.write("### 살인 관련 콘텐츠")
         st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
         st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
         st.text("Description for Low Segment 1")
 
-    elif prediction == "살인 미수":
+    elif prediction == "살인미수  (5)":
         st.write("### 살인 미수 관련 콘텐츠")
         st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
         st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
