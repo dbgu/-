@@ -162,7 +162,7 @@ if prediction!=0:
         st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
         st.text("Description for Low Segment 1")
 
-   elif prediction == "유사 강간 (3)":
+   elif prediction == "유사강간 (3)":
         st.write("### 유사강간  관련 콘텐츠")
         st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
         st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
