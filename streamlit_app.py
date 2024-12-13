@@ -10,9 +10,9 @@ import numpy as np  # numpy를 import해야 함
 st.title("주택 가격 예측 서비스!")
 
 # GitHub Raw 파일 URL과 모델 유형
-GITHUB_RAW_URL = ""
-MODEL_TYPE = ""  # "fastai", "scikit-learn Random Forest", or "XGBoost"
-CSV_FILE_URL = ""
+GITHUB_RAW_URL = "https://github.com/dbgu/-/raw/refs/heads/main/random_forest_model.pkl"
+MODEL_TYPE = "scikit-learn Random Forest"  # "fastai", "scikit-learn Random Forest", or "XGBoost"
+CSV_FILE_URL = "https://github.com/dbgu/-/raw/refs/heads/main/%EC%9C%BC%EC%9D%91.csv"
 
 # GitHub에서 파일 다운로드 및 로드
 def download_model(url, output_path="model.pkl"):
