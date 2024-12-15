@@ -146,39 +146,39 @@ if st.button("Predict"):
 if prediction!=0:
     if prediction == "살인 (6)":
         st.write("### 살인 관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
+        st.image("https://i.ibb.co/8xSgbXM/png-transparent-graphy-murder-woman-woman-hand-photography-people-thumbnail.png")
         st.video("https://www.youtube.com/watch?v=G0WGglONHyw")  # YouTube 썸네일
         st.text("살인 범죄를 저지를 가능성이 높다고 볼 수 있습니다")
 
     elif prediction == "살인 미수 (5)":
         st.write("### 살인 미수 관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-        st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
+        st.image("https://i.ibb.co/8xSgbXM/png-transparent-graphy-murder-woman-woman-hand-photography-people-thumbnail.png")
+        st.video("https://www.youtube.com/watch?v=G0WGglONHyw")  # YouTube 썸네일
         st.text("살인미수 범죄를 저지를 가능성이 높다고 볼 수 있습니다.")
 
     elif prediction == "강간 (4)":
         st.write("### 강간  관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-        st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
+        st.image("https://i.ibb.co/b5WFDky/3654270-yxd.jpg")
+        st.video("https://www.youtube.com/watch?v=9VIZ_TkHxH8")  # YouTube 썸네일
         st.text("강간 범죄를 저지를 가능성이 높습니다.")
 
     elif prediction == "유사 강간 (3)":
         st.write("### 유사 강간  관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-        st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
+        st.image("https://i.ibb.co/b5WFDky/3654270-yxd.jpg")
+        st.video("https://www.youtube.com/watch?v=9VIZ_TkHxH8")  # YouTube 썸네일
         st.text("유사 강간 범죄를 저지를 가능성이 높습니다")
 
     elif prediction == "강도 (2)":
         st.write("### 강도  관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-        st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
+        st.image("https://i.ibb.co/DDkbw7j/20210613102926599606.jpg")
+        st.video("https://www.youtube.com/watch?v=4joNz65URCY")  # YouTube 썸네일
         st.text("강도 범죄를 저지를 가능성이 높습니다.")
 
     elif prediction == "기타 범죄 (1)":
         st.write("### 기타 범죄  관련 콘텐츠")
-        st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-        st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
-        st.text("강도 범죄를 저지를 가능성이 높습니다.")
+        st.image("https://i.ibb.co/LRbFZPf/330701658122706196.jpg")
+        st.video("https://www.youtube.com/watch?v=vptMe6Jpv98")  # YouTube 썸네일
+        st.text("기타 범죄를 저지를 가능성이 높습니다.")
        
        
        
